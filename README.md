@@ -6,9 +6,9 @@
 Audio effects library for use by plugin developers, designed for low-latency algorithms taking place frame-by-frame for buffered audio.
 
 
-```markdown
-## Effects included in the library
+### Effects included in the library
 
+```markdown
 - Gain
 - Pan
 - Delay
