@@ -20,7 +20,7 @@ Audio effects library for use by plugin developers, designed for low-latency alg
 
 ## Software Architecture
 
-<img src="../assets/SoftwareArchitecture.png" alt="Software Architecture">
+![useful image]({{ site.url }}/assets/SoftwareArchitecture.png)
 
 
 
