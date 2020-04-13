@@ -1,28 +1,24 @@
 ## Audio Effects Framework
 
-An API for developers looking to create audio effects processing plugins.
 
+### Description
 
-### Markdown
+Audio effects library for use by plugin developers, designed for low-latency algorithms taking place frame-by-frame for buffered audio.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
-Syntax highlighted code block
+## Effects included in the library
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+- Gain
+- Pan
+- Delay
+- Biquad
+- Distortion
+- Compressor
+- Expander
+- Flanger
+- Chorus
+- Reverb
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
