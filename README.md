@@ -1,8 +1,11 @@
 
 ## Description
 
-Audio effects library for use by plugin developers, designed for low-latency algorithms taking place frame-by-frame for buffered audio.
+Cross platform C++ library with low-latency audio effects processing algorithms designed for real-time audio processing.
 
+## Motivation
+
+This projects aims to provide an easy to use API for creating audio effects processing applications. With well documented, low-level implementation of audio effects in C++, the library is designed to be simple and efficient.
 
 ## Effects included in the library
 
@@ -16,6 +19,18 @@ Audio effects library for use by plugin developers, designed for low-latency alg
 - Flanger
 - Chorus
 - Reverb
+
+## Use Cases
+
+- Creating plugins for Digital Audio Workstations.
+- For use in applications that require real-time audio effects.
+
+
+## Getting Started
+
+### Installation
+
+### Examples
 
 
 ## Software Architecture
