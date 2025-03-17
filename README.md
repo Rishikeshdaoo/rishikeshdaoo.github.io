@@ -1,41 +1,40 @@
-downing.io
-================================================================================
+<img src="/public/cover.jpg" alt="Cover image representing Nim, a personal website template" width="100%" />
 
-Source code for my personal website. MIT Licensed. Contains a copy of my resume, 
-as well as some links to Github. :octocat:
+Nim is a free and open-source personal website template built with Next.js 15, React 19, Tailwind CSS v4, and Motion. Designed for developers, designers, and founders, it combines minimalism with delightful animated components powered by [Motion-Primitives](https://motion-primitives.com).
 
-## Forking Note
+Live demo: [https://nim-fawn.vercel.app](https://nim-fawn.vercel.app)
 
-If you fork this repo, please change the **form action** to an email address you own before trying it out. [Thaaaanks!](https://i.imgur.com/TpBVEjv.jpg)
+## Features
 
+- Minimal one-page portfolio layout.
+- Blog support with MDX.
+- Responsive and accessible design.
+- Easy to use
+- [Motion-Primitives](https://motion-primitives.com) for animated components.
+
+## Getting Started
+
+For detailed setup instructions, refer to the [Installation Guide](./INSTALLATION.md).
+
+```bash
+git clone https://github.com/ibelick/nim.git
+cd nim
+npm install
+npm run dev
 ```
-<form action="https://formspree.io/your-email@here.com" method="POST" class="form-horizontal" role="form">
-```
 
-Built using:
---------------------------------------------------------------------------------
-[HTML5](https://developers.google.com/web/)  
-[Bootstrap](http://getbootstrap.com/) for CSS  
-[jQuery](https://jquery.com/) for JS  
-[namecheap](https://www.namecheap.com/) for the awesome domain  
-[GitHub Pages](https://pages.github.com/) for hosting  
-[CloudFlare](https://www.cloudflare.com/) for the SSL cert and fancy green lock :lock:  
-[git](https://git-scm.com/) for source control
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Based on the
-[Creative Bootstrap theme](http://startbootstrap.com/template-overviews/creative/)
-from [Start Bootstrap](http://startbootstrap.com/).
-The theme is also MIT Licensed.
+## Contributing
 
-View it here: [downing.io](https://downing.io/)
+Contributions are welcome! Feel free to open issues or submit pull requests to improve Nim.
 
-Check out some of my other webpages at 
-[github.com/JasonD94/](https://github.com/JasonD94/)
+## Deployment
 
-##### NOTE:
+You can deploy your site to any hosting platform that supports Next.js. For the easiest deployment experience, consider using Vercel:
 
-I have a custom domain connected to GitHub, so my GitHub Pages repositories 
-do not follow the usual GITHUB-USERNAME-HERE.github.io/REPOSITORY-NAME-HERE format. 
-Instead they follow a "downing.io/REPOSITORY-NAME-HERE" format. 
-If the domain fails for some reason, you can still access my site by going to 
-[https://jasond94.github.io](https://jasond94.github.io)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fibelick%2Fnim&env=NEXT_PUBLIC_SITE_URL&project-name=nim&repository-name=nim&redirect-url=https%3A%2F%2Ftwitter.com%2Fibelick&demo-title=Nim&demo-description=Nim%20is%20a%20free%20and%20open-source%20minimal%20personal%20website%20template%20built%20with%20Next.js%2015%2C%20React%2019%2C%20and%20Motion-Primitives.&demo-url=https%3A%2F%2Fnim.vercel.app&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fibelick%2Fnim%2Frefs%2Fheads%2Fmain%2F.github%2Fassets%2Freadme.png&teamSlug=ibelick)
+
+## About
+
+Nim is designed to make personal branding effortless and beautiful. If you enjoy it, consider sharing it and exploring [Motion-Primitives Pro](https://pro.motion-primitives.com/).
